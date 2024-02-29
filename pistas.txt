@@ -1,0 +1,48 @@
+Pista 1:
+Felicidades, recordaste que con git branch podemos listar todas las ramas.
+Ahora deberás moverte rama por rama con tu línea de comandos para ver los cambios en mensaje.txt
+Apunta los 2 caracteres que tiene cada archivo.
+Ejemplo:
+Me muevo a ramona-001, el contenido de mensaje es U3 (o algo así), lo apuntas.
+Te mueves a ramona-002, apunta el contenido, así sucesivamente...
+Harás esto 112 veces, lol.
+
+Pista 2:
+Con cuatro veces yo ya me habría aburrido, ¿no crees?, eres programador, programa eso.
+
+Pista 3:
+¿Qué comando usaste para moverte a una determinada rama?
+
+Pista 4:
+¿No existirá alguna forma de que Java ejecute dicho comando? ;), es hora de googlear y usar chatGPT
+
+Pista 5:
+ProcessBuilder, Process ;)
+
+Pista 6:
+Cuando hayas visto ejemplos, intenta crear un proyecto, ve de lo básico, logra pequeños objetivos.
+Cuando te sientas en confianza con los comandos (que hayas logrado ejecutar algunos), ahora sí piensa en tu programa.
+
+Pista 7:
+Cuidado, cuando logres ejecutar algún comando, muy probablemente tendrás un error si intentas ejecutar varios de forma simultánea.
+Los comandos tardan una determinada cantidad de tiempo, te aconsejo que también investigues algo sobre waitFor().
+El método waitFor() pertenece a la clase Process, busca ejemplos del mismo, pídele a chatGPT que te de ejemplos, ejecuta, experimenta.
+
+Pista 8:
+Ahora crea tu programa, algoritmo general.
+1. Muévete al directorio de trabajo (donde clonaste el repositorio).
+2. Dile a java que almacene ese directorio (ya sabes cómo).
+3. Ejecuta un comando con java, ya sabes cuál
+4. Espera a que el comando se ejecute.
+5. Lee el contenido del mensaje.txt
+6. Cocatena el contenido a una variable String o StringBuilder (¿cuál es mejor?)
+7. Cuando finalices, ya tendrás en dicha variable el mensaje secreto.
+8. Crea un programa para decifrar dicha variable
+
+Pista 9:
+El mensaje está codificado en Base64, ve y lee cómo funciona la clase.
+Busca ejemplos.
+Dile a chatGPT que te ayude si te atoras
+Decodifca el mensaje.
+
+Fin :D
